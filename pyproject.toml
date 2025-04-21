@@ -1,0 +1,11 @@
+[project]
+name = "chainlit-bot"
+version = "0.1.0"
+description = "AI chatbot using Chainlit"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents>=0.0.11",
+    "pyngrok>=7.2.4",
+]
+
+[tool.uv]
